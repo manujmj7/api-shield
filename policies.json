@@ -1,0 +1,29 @@
+{
+  "product_limit": {
+    "name": "product_limit",
+    "endpoint": "/api/products",
+    "limit": 5,
+    "window": 60,
+    "algorithm": "fixed_window",
+    "active": true,
+    "updated_at": 1791808889.9269269
+  },
+  "users_limit": {
+    "name": "users_limit",
+    "endpoint": "/api/users",
+    "limit": 10,
+    "window": 60,
+    "algorithm": "sliding_window",
+    "active": true,
+    "updated_at": 1791459947.537479
+  },
+  "login_limit": {
+    "name": "login_limit",
+    "endpoint": "/api/login",
+    "limit": 3,
+    "window": 60,
+    "algorithm": "fixed_window",
+    "active": true,
+    "updated_at": 1791460698.3653107
+  }
+}

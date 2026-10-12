@@ -1,0 +1,9 @@
+target-version = "py310"
+line-length = 100
+
+[lint]
+select = ["E", "F", "W", "I", "B"]
+ignore = ["E501"]  # line length handled by formatter
+
+[lint.isort]
+known-first-party = ["config", "errors", "identity", "policy", "redis_store", "limiter", "blocking", "logging_utils", "routes", "app"]

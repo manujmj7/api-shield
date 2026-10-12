@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Linter
+.ruff_cache/
+
+# Environment & logs
+.env
+logs/
+*.log
+dump.rdb
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
